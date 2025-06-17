@@ -1,0 +1,38 @@
+
+body{
+    background-color:cadetblue;
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+h1{
+    color:rgb(145, 101, 167);
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/*Button Styling*/
+.my-button{
+    background-color: forestgreen;
+    color:antiquewhite;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+/*animation on hover*/
+
+.my-button:hover{
+    background-color: darkolivegreen;
+    transform: scale(1.1);
+
+}
